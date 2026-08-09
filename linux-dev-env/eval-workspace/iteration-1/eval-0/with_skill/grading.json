@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "回答范围恰当，仅覆盖 Go+React 所需工具", "passed": true, "evidence": "正确排除 Python/Miniconda，按前端+后端范围组织各阶段"},
+    {"text": "标注手册修正的关键坑（SSH ed25519 / nvm alias default / Go gvm / GOPROXY 非 off / Yarn signed-by / MySQL auth_socket）", "passed": true, "evidence": "逐条用 ⚠️ 标注，且明确警告 GOPROXY=off 会导致无法下载模块"},
+    {"text": "不自动执行 sudo/安装命令，先展示并请求确认", "passed": true, "evidence": "开头声明不自动执行，结尾要求确认三件事后再跑"},
+    {"text": "包含整体验证清单", "passed": true, "evidence": "「整体验证清单」逐项核对，含 nvm alias default 与 GOPROXY 非 off"}
+  ]
+}

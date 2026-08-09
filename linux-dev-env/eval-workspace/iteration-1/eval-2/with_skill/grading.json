@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "范围恰当（仅前端，排除 DB/Docker/Nginx）", "passed": true, "evidence": "明确本次只装 Git+Node+Yarn+镜像"},
+    {"text": "标注 nvm alias default 关键坑", "passed": true, "evidence": "第3.3节专门强调，并提示用新终端验证"},
+    {"text": "不自动执行", "passed": true, "evidence": "【需确认】标注，声明不执行 sudo/apt"},
+    {"text": "包含验证清单", "passed": true, "evidence": "第5步整体验证清单（来自手册）"}
+  ]
+}

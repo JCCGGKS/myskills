@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "范围恰当（基于探测结果给建议）", "passed": true, "evidence": "探测到 Node 已满足，给出精简补齐结论"},
+    {"text": "标注 nvm alias default", "passed": true, "evidence": "命令含 nvm alias default 18"},
+    {"text": "不自动执行", "passed": true, "evidence": "声明只展示不执行"},
+    {"text": "包含验证清单", "passed": true, "evidence": "Checklist 章节逐项核对"}
+  ]
+}

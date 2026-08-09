@@ -1,0 +1,4 @@
+interface:
+  display_name: "日志排查"
+  short_description: "检索并分析应用、服务与基础设施日志"
+  default_prompt: "Use $logsearch to investigate logs, narrow the scope quickly, reconstruct the timeline, identify the most likely cause, and summarize findings as 范围 / 发现 / 判断 / 影响 / 下一步."

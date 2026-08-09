@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "回答范围恰当（MySQL+Redis）", "passed": true, "evidence": "完整给出两者安装步骤"},
+    {"text": "正确解释 auth_socket", "passed": true, "evidence": "指出 auth_socket 默认认证，改用 sudo mysql 免密登入"},
+    {"text": "不自动执行", "passed": true, "evidence": "声明不执行，仅展示"},
+    {"text": "含排查/运维命令", "passed": true, "evidence": "常见问题排查 + 运维命令速查"}
+  ]
+}

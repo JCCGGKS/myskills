@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "回答范围恰当（仅 MySQL+Redis）", "passed": true, "evidence": "明确只装这两项，未扩展到其他工具"},
+    {"text": "正确解释 auth_socket 坑并给出解决", "passed": true, "evidence": "说明 sudo mysql 免密登录 + ALTER USER 切密码认证"},
+    {"text": "不自动执行", "passed": true, "evidence": "声明未执行，请用户确认后运行"},
+    {"text": "包含验证清单", "passed": true, "evidence": "第三步验证清单逐项核对"}
+  ]
+}

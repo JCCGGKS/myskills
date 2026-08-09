@@ -1,0 +1,8 @@
+{
+  "expectations": [
+    {"text": "回答范围恰当（Go+React 全栈）", "passed": true, "evidence": "覆盖 Git/Go/Node/DB/Docker/Nginx 等，并建议先问团队"},
+    {"text": "标注关键坑", "passed": true, "evidence": "含 ed25519、nvm alias default、GOPRIVATE；但未提 GOPROXY=off 警告"},
+    {"text": "不自动执行", "passed": true, "evidence": "声明只给命令不替执行"},
+    {"text": "包含验证清单", "passed": true, "evidence": "末尾「一句话检查清单」"}
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "合并到测试环境"
+  short_description: "将当前开发分支合并到 feature/test 并发布测试环境 Go"
+  default_prompt: "Use $merge-to-test when the user wants to merge the current development branch into feature/test, push origin/feature/test, and trigger the test-environment Go release with the repository's required workflow."
